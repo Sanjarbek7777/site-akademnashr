@@ -257,6 +257,7 @@ body {
   padding-left: 65px;
   background: #252420;
   border-radius: 12px;
+  margin-bottom: 160px;
 }
 
 .kids__wrapper {
@@ -302,3 +303,67 @@ body {
   color: #FF7500;
 }
 
+/* footer */
+
+.site-footer {
+  background-color:  #F8F8F8;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.site-footer__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #25242080;
+}
+
+.site-footer__icons-list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-footer__icons-item:not(:last-child) {
+  margin-right: 16px;
+}
+
+.site-footer__icons-link {
+  transition: opacity 0.3s ease;
+}
+
+.site-footer__icons-link:hover {
+  opacity: 0.7;
+}
+
+.footer-lists {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 65px;
+}
+
+.footer-lists__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-lists__item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.footer-lists__link {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #252420;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.footer-lists__link:hover {
+  opacity: 0.7;
+}
